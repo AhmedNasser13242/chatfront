@@ -52,7 +52,7 @@ function Sidebar() {
   });
 
   function getRooms() {
-    fetch("https://rapperd-chat.onrender.com//rooms")
+    fetch("https://backchatapp.onrender.com/rooms")
       .then((res) => res.json())
       .then((data) => setRooms(data));
   }
